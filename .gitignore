@@ -41,3 +41,10 @@ app-example
 # generated native folders
 /ios
 /android
+
+
+# local env files
+.env*.local
+
+# Ignore .env because it's values are loaded from other envs
+.env
